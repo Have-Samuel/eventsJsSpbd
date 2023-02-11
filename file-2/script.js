@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const btn = document.querySelector('button');
+  console.log('DOM LOADING')
+  // const btn = document.querySelector('button');
 
-  btn.addEventListener('click', function () {
-    console.log('Clicked!');
-  })
+  // btn.addEventListener('click', function () {
+  //   console.log('Clicked!');
+  // })
+});
+
+window.addEventListener('load', function () {
+  console.log('FULLY LOADED!')
 });
